@@ -1,0 +1,52 @@
+header {
+    font-size: 70px;
+    background-color: red;
+    text-align: center;
+}
+.znaki{
+    width: 15%;
+    height: 100%;
+    float: right;
+    background:firebrick;
+}
+.nawigacja
+{
+    float: left;
+    width: 15%;
+    height: 100%;
+    background-color: blue;
+}
+.historia {
+    width: 70%;
+    height: 100%;
+    float: left;
+    margin-left: 15%;
+    background: white;
+    font-size: 21px;
+    text-align: center;
+
+}
+a
+{
+    color: yellow;
+}
+h2{color: yellow;}
+@media only screen and (max-width: 600px) {
+body {
+background-color: greenyellow;
+}
+.nawigacja{
+width: 100%;
+}
+.znaki{
+background-color: brown;
+width: 100%;
+}
+.historia{
+    width: 100%;
+    float: left;
+    font-size: 1vw;
+    background: lightblue;
+}
+p{float: left;}
+}
